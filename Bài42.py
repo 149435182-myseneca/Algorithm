@@ -1,5 +1,5 @@
 # https://drive.google.com/file/d/10eSYB9dvpj_GvrVqU3IuPHaO4I9cmyJb/view?usp=sharing
-# Bài 41 - Dinh Quy Pham
+# Bài 42 - Dinh Quy Pham
 n = int(input("Nhập N : "))
 tong = 0
 lst = list()
