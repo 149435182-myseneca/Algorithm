@@ -14,7 +14,7 @@ for a in range(1):
     canbac = math.sqrt(giatri)
     # Thêm giá trị vào list su
     su.append(canbac)
-    # Cho vòng for x chỉ một chức năng giảm giá trị của biến giatri về 0
+    # Cho vòng for x để thêm tong vào list su
     # Lý do đặt range(n-1) vì chỉ cần lặp n-1 lần là đủ
     for x in range(n-1):
         giatri -= 1
