@@ -1,3 +1,5 @@
+# https://drive.google.com/file/d/10eSYB9dvpj_GvrVqU3IuPHaO4I9cmyJb/view?usp=sharing
+# Bài 35 - Dinh Quy Pham
 import math
 n = int(input("Nhập N : "))
 # Sử dụng biến giatri để sau trừ ra mà không làm thay đổi giá trị của n
