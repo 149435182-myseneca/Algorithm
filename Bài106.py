@@ -1,5 +1,5 @@
 # https://drive.google.com/file/d/10eSYB9dvpj_GvrVqU3IuPHaO4I9cmyJb/view?usp=sharing
-# Bài 104 - Dinh Quy Pham
+# Bài 106 - Dinh Quy Pham
 print("Chương trình nhập vào một số tự nhiên có ba chữ số, và in ra cách đếm chữ số đó")
 print("--------------------------------------------------------------------------------")
 
