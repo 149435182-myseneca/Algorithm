@@ -27,16 +27,22 @@ class so_Chan:
             else:
                 tong = self.n - i
                 lstam.append(tong)
-        phan_tich = max(lstduong) - max(lstam)
-        ket_qua_am = -(max(lstam) - self.n)
-        ket_qua_duong = max(lstduong) + self.n
-        if phan_tich < 0:
-            print(ket_qua_am)
-        elif phan_tich > 0:
+        if len(lstduong) > 0 and len(lstam) == 0:
+            ket_qua_duong = max(lstduong) + self.n
             print(ket_qua_duong)
+        elif len(lstam) > 0 and len(lstduong) == 0:
+            ket_qua_am = -(max(lstam) - self.n)
+            print(ket_qua_am)
         else:
-            print(ket_qua_am, "và", ket_qua_duong)
-
+            phan_tich = max(lstduong) - max(lstam)
+            ket_qua_am = -(max(lstam) - self.n)
+            ket_qua_duong = max(lstduong) + self.n
+            if phan_tich < 0:
+                print(ket_qua_am)
+            elif phan_tich > 0:
+                print(ket_qua_duong)
+            else:
+                print(ket_qua_am, "và", ket_qua_duong)
 
 goi = so_Chan(int(input("Nhập n : ")))
 goi.nhap()
